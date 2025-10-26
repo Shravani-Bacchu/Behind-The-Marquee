@@ -1,0 +1,13 @@
+body {
+  background-color:rgb(31, 39, 27);
+}
+@font-face {
+    font-family: myfont;
+    src: url(title_font.ttf);
+}
+
+h1{
+    text-align: center;
+    font-family: myFont;
+    color:hex(121216);
+}
