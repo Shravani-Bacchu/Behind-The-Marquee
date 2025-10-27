@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("npmdbg.jpg");
+  background-image: url("bfbg.jpg");
   background-size: cover;
   background-position: center;
   margin: 0;
@@ -27,35 +27,34 @@ h1 {
   text-align: center;
   font-family: TitleFont;
   font-size: 77px;
-  color:rgb(0,0,0);
+  color:#00111c;
 }
 
-/* Buttons container */
 .button-container {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin: 20px 0; /* spacing below the title */
+  margin: 20px 0; 
   flex-wrap: wrap;
 }
 
 .custom-btn {
-  background-color: #8F0000;
+  background-color: #060113;
   color: #fff;
   font-family: TitleFont, Arial, sans-serif;
   font-size: 40px;
   padding: 12px 25px;
-  border: 2px solid #550000;
+  border: 2px solid #00111c;
   border-radius: 12px;
   cursor: pointer;
-  box-shadow: 0 5px 0 #550000;
+  box-shadow: 0 5px 0 #00111c;
   transition: all 0.3s ease;
 }
 
 .custom-btn:hover {
-  background-color: #a00000;
+  background-color: #060113;
   transform: translateY(-3px);
-  box-shadow: 0 8px 0 #550000;
+  box-shadow: 0 8px 0 #00111c;
 }
 
 .custom-btn:active {
@@ -64,7 +63,7 @@ h1 {
 }
 
 h2 {
-  color: #8F0000; /* brighter, slightly glowing red */
+  color: #001523; 
   margin-bottom: 10px;
   font-weight: bold;
   margin-left: -17px;
@@ -80,7 +79,7 @@ h2 {
 }
 
 .plot, .characters, .music {
-  background-image: url(npmdbg.jpg);
+  background-image: url(bfbg.jpg);
   background-size: cover;
   background-position: center;
   color: rgb(255, 255, 255);
