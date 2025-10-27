@@ -42,12 +42,12 @@ h1 {
   background-color: #00111c;
   color: #fff;
   font-family: TitleFont, Arial, sans-serif;
-  font-size: 40px;
-  padding: 12px 25px;
+  font-size: 28px;        /* smaller text */
+  padding: 8px 18px;      /* smaller button height/width */
   border: 2px solid #060113;
-  border-radius: 12px;
+  border-radius: 10px;
   cursor: pointer;
-  box-shadow: 0 5px 0 #060113;
+  box-shadow: 0 4px 0 #060113;  /* slightly shallower shadow */
   transition: all 0.3s ease;
 }
 
@@ -78,7 +78,7 @@ h2 {
 }
 
 /* 🎬 Individual boxes */
-.plot, .characters, .links {
+.plot,.universe,.links {
   background-image: url("bfbg.jpg");
   background-size: cover;
   background-position: center;
